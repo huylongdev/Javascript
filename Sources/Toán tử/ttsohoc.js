@@ -4,8 +4,8 @@
  * +  :cộng
  * -  :trừ
  * *  :nhân
- * ** :luỹ thừa
  * /  :chia
+ * ** :luỹ thừa
  * %  :chia lấy dư
  * ++ :thêm 1 giá trị
  * -- :giảm 1 giá trị
@@ -29,8 +29,8 @@ alert(d);
  * a /= 2  tưƠng đưƠng a = a /2
  * a **= 2  tưƠng đưƠng a = a **2
  */
-var c=2;
-var d =3 
+var c = 2;
+var d = 3 
 var e;
 console.log(e = c+=d);
     /*  x++ tăng giá trị biến lên 1 và trả về giá trị trước khi tăng
@@ -51,7 +51,7 @@ console.log("output:",output);
 //ví dụ 2
 
 var num2 = 10;
-var output2 = ++num2 *3  + num2-- *2; 
+var output2 = ++num2 *3 + num2-- *2; 
 console.log("output2:",output2);
 
 ////////////////////////////////////////////////////////////////////////////////////
@@ -105,7 +105,7 @@ console.log(h<j);
 // Giải thích: tại vì ngoài những giá trị bên trên, nếu chúng ta truyền vào điều kiện là một thứ gì đÓ không phải boolean. VD: 1,2,3,"huylong",... thì JS sẽ tự convert về thành bolean true.
 var cow ="long";
 if(cow){
-    console.log("Dieu kien o12k");
+    console.log("Dieu kien ok");
 } else {
     console.log("Dieu kien sai");
 }

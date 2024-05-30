@@ -16,7 +16,8 @@ var languages = [
     undefined,
     {},
     function() {},
-    1
+    1,0
+    
 ];
 console.log(typeof languages);
 // Vì khi typeof {} và [] đều trả về object, cho nên đây là cách phân biệt

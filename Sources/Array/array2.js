@@ -113,6 +113,7 @@ var fruit2 = [
     "orange",
 ]
 console.log(fruit1.concat(fruit2));
+
 //concat() : nối chuỗi, hợp vào chuỗt thứ nhất(là fruit1)
 
 

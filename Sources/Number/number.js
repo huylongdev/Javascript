@@ -1,6 +1,6 @@
 
-// Cũng là khai báo số 1000000 nhưng có cách viết khác. Bạn có thể thêm chữ e vào sau số 1 và chỉ định số số không phía sau chữ e như sau:
-var billion = 1e9; // tương tự: 1000000
+// Cũng là khai báo số 1000000000 nhưng có cách viết khác. Bạn có thể thêm chữ e vào sau số 1 và chỉ định số không phía sau chữ e như sau:
+var billion = 1e9; // tương tự: 1000000000
 console.log("billion: ", billion)
 
 
@@ -38,6 +38,7 @@ console.log( isNaN(num2) );
 
 
 // toString();
+
 console.log(PI.toString());
 
 

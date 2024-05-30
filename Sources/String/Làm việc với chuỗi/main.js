@@ -14,7 +14,7 @@ console.log(myString.indexOf('JS'));
 // Nó sẽ trả về position của ký tự đầu tiên, nếu có nhiều ký tự giống nhau
 console.log(myString.indexOf('JS',14));
 // Nếu muốn tìm một thằng khác thằng đầu tiên, indexOf hỗ trợ tham số thứ 2 là vị trí bắt đầu tìm kiếm. Ví dụ nếu ta để số 14 thì nó sẽ bắt đầu từ vị trí index 14, khi đó output là 14 chứ không phải 4 nữa.
-// CÓ THỂ HIỂu , THAM SỐ THỨ HAI TRONG indexOf chính là điểm xuất phát luôn, vậy nên nếu có giá trị nào cầN tìm ở ngay second parameter. Thì nó vẫn nhậN thằng đó;
+// CÓ THỂ HIỂu , THAM SỐ THỨ HAI TRONG indexOf chính là điểm xuất phát luôn, vậy nên nếu có giá trị nào cầN tìm ở ngay second parameter. Thì nó vẫn nhận thằng đó;
 
 console.log(myString.lastIndexOf('JS'));
 // trả về thằng cuối 
@@ -66,7 +66,7 @@ console.log("========================================");
 
 
 // 6. Convert to lowercase
-// console.log(string3.toUpperCase());
+// console.log(string3.toLowerCase());
 console.log("========================================");
 
 

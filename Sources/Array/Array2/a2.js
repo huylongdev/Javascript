@@ -67,13 +67,37 @@ console.log("=====================================")
 
 //Bài toán kiểm tra xem tất cả khoá học có miễn phí không
 var isFree = courses.every(function (course, index){
-    console.log(index);
+    console.log(course);
     //Nó kiểM tra thằng đầu đã sai luôn rồi nên nó dừng luôn, vậy nên chỉ có một index = 0 đƯợc duyệt qua
     return courses.coin === 0;  
 });
 console.log(isFree);
 console.log("=====================================")
+    
+var arrayyyy = [
+    {
+        name: 'Bóng rổ',
+        like: 0
+    },
+    {
+        name: 'Bơi lội',
+        like: 0
+    },
+    {
+        name: 'Bóng đá',
+        like: 10
+    },
+]
 
+
+var isUnderrated = arrayyyy.some(function(course){
+
+    if (course.like === 0){
+        console.log("Underrated team: ",course.name);
+    }
+    return course.like === 0;
+})
+console.log(isUnderrated);
 
 
 
@@ -199,8 +223,8 @@ function courseHandler(course, index){
     return{
         index,
         id: course.id,
-        name:`Khoa hoc: ${course.name}` ,
-        coin:"Gia tien: " + course.coin + "$",
+        name:`Khoa hoc ${course.name}` ,
+        coin:`Bitcoin: ${course.coin}$`,
         contact: "https://f8.edu.vn",
         originArray: courses2,
         //Cách để thêm và mảng cũ, add hẳn value vào key đÓ luôn

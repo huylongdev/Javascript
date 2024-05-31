@@ -2,7 +2,7 @@
 
 
 function random(argument){
-  argument("Hello mina-san");
+  argument("Hello chiná-san");
 }
 function myCallback(argument){
   console.log(argument);

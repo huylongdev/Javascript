@@ -85,7 +85,8 @@ console.log("========================================");
 
 // 8. Split
 var languages = "JS, Java, Ruby";
-console.log(languages.split(", "));
+console.log(languages.split(", ").join("--/delimiter/--")); //Join works with array, so we need to split it first
+// The join() method creates and returns a new string by combining all of the elements in an array( with new delimiter ).
 // The split() method is used to split a string into an array of substrings, and returns the new array.
 // ", " chính là điểm chung giữa các phần tử trong mảng , nếu không có thì nó sẽ cắt từng ký tự một như bên dưới.
 console.log(languages.split("")); // vì nó coi khoảng rỗng là điểm chung

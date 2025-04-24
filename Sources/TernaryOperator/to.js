@@ -18,6 +18,6 @@ var course2 = {
     
 }
 
-var result = course2.price >0 ? `${course2.price} $` : " FREE";
+var result = course2.price >0 ? `price: $skibidi${course2.price} $` : " FREE";
 
 console.log(result);

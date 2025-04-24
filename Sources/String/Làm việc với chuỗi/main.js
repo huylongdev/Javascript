@@ -95,7 +95,6 @@ console.log("========================================");
 
 
 
-
 // 9. Get a character by index
 
 var lyrics = "when ur legs dont work like they used to before";
@@ -105,5 +104,13 @@ console.log(lyrics.charAt(50));
 console.log(lyrics[50]);
 // Chúng ta cũng có thể dùng giấu ngoặc vuông để lấy giá trị
 // Tuy nhiên nếu ghi vào một index out limit thì nó sẽ return về undefined, chứ không phải trả về 1 chuỗi rỗng
+
+
+console.log("========================================");
+console.log("========================================");
+console.log("========================================");
+console.log("========================================");
+console.log("========================================");
+console.log("========================================");
 
 
